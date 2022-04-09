@@ -11,3 +11,6 @@ let borderUISize = config.height / 15;
 let borderPadding = borderUISize / 3;
 
 let game = new Phaser.Game(config);
+
+// reserving rocket keybinds
+let keyF, keyR, keyLEFT, keyRIGHT;
